@@ -75,6 +75,7 @@ class Search {
         }
     }
 
+    
     addHistory = ( place = '' ) => {
         if ( this.historyData.includes( place.toLocaleLowerCase() ) ) {
             return;
